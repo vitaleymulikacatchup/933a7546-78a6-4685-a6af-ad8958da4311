@@ -32,30 +32,31 @@ export default function Home() {
           onButtonClick={() => alert('CTA clicked!')}
         />
       </div>
-      <div id="hero" data-section="hero">
+      <div id="hero" data-section="hero" className="scroll-mt-24">
         <TokenBillboardHero
-          title="Welcome to MemePulse"
+          title="Yo"
           subtitle="Dive into the world of playful memecoins"
           contractAddress="0xExampleAddress"
           copyButtonText="Copy Address"
           copiedText="Address Copied!"
         />
       </div>
-      <div id="about" data-section="about">
+      <div id="about" data-section="about" className="scroll-mt-24">
         <SplitAbout
           description="MemePulse is your go-to platform for engaging with memecoins. Join our community and learn how to buy, hold, and trade your favorite tokens safely!"
         />
       </div>
-      <div id="how-to-buy" data-section="how-to-buy">
+      <div id="how-to-buy" data-section="how-to-buy" className="scroll-mt-24">
         <HowToBuy2D variant="simple" />
       </div>
-      <div id="tokenomics" data-section="tokenomics">
+      <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
         <BigNumberTokenomics
           title="Tokenomics Overview"
           description="Understanding the distribution and supply of our memecoin is crucial for making informed decisions."
-          kpiItems={[{ value: '10 Million', description: 'Total Supply', longDescription: 'The maximum number of tokens available.' }]} />
+          kpiItems={[{ value: '10 Million', description: 'Total Supply', longDescription: 'The maximum number of tokens available.' }]}
+        />
       </div>
-      <div id="footer" data-section="footer">
+      <div id="footer" data-section="footer" className="scroll-mt-24">
         <FooterBase
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/design-a-simple-high-contrast-logo-for-m-1759392064199-d1c81d05.jpg"
           logoWidth={150}
