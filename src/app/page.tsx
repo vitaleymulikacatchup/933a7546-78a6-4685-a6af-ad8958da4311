@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteTheme, SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutFloatingOverlay from '@/components/navigation/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TokenBillboardHero from '@/components/sections/layouts/hero/TokenBillboardHero';
@@ -10,8 +10,7 @@ import FooterBase from '@/components/footer/FooterBase';
 const theme: SiteTheme = {
   styleVariant: 'funAndTrendy',
   colorTemplate: 1,
-  textAnimation: 'slide',
-  buttonOption: 'motion-icon',
+  textAnimation: 'slide'
 };
 
 export default function Home() {
@@ -27,7 +26,7 @@ export default function Home() {
             { name: 'About', id: 'about' },
             { name: 'How to Buy', id: 'how-to-buy' },
             { name: 'Tokenomics', id: 'tokenomics' },
-            { name: 'Footer', id: 'footer' },
+            { name: 'Footer', id: 'footer' }
           ]}
           buttonText="Get MEME"
           onButtonClick={() => alert('CTA clicked!')}
@@ -64,7 +63,7 @@ export default function Home() {
           columns={[
             { title: 'Community', items: [{ label: 'Discord', onClick: () => console.log('Discord clicked') }, { label: 'Twitter', onClick: () => console.log('Twitter clicked') }] },
             { title: 'Resources', items: [{ label: 'Documentation', onClick: () => console.log('Docs clicked') }] },
-            { title: 'Help', items: [{ label: 'Contact', onClick: () => console.log('Contact clicked') }] },
+            { title: 'Help', items: [{ label: 'Contact', onClick: () => console.log('Contact clicked') }] }
           ]}
           copyrightText="© 2023 MemePulse"
           onPrivacyClick={() => alert('Privacy Policy clicked')}
