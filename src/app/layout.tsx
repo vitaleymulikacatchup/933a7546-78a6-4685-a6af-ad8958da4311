@@ -27,7 +27,12 @@ export const metadata: Metadata = {
     type: "website",
     url: "/",
     siteName: "MemePulse",
-    images: [{ url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/draw-a-cartoon-desert-landscape-in-16-9--1759392060471-ddcb6959.jpg", width: 1200, height: 630, alt: "MemePulse logo with playful meme character on gradient background" }]
+    images: [{
+      url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/draw-a-cartoon-desert-landscape-in-16-9--1759392060471-ddcb6959.jpg",
+      width: 1200,
+      height: 630,
+      alt: "MemePulse logo with playful meme character on gradient background"
+    }]
   },
   twitter: {
     card: "summary_large_image",
