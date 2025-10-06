@@ -34,7 +34,7 @@ export default function Home() {
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <TokenBillboardHero
-          title="YoYote"
+          title="YoYoterr123"
           subtitle="Dive into the world of playful memecoins"
           contractAddress="0xExampleAddress"
           copyButtonText="Copy Address"
@@ -53,7 +53,7 @@ export default function Home() {
         <BigNumberTokenomics
           title="Tokenomics Overview"
           description="Understanding the distribution and supply of our memecoin is crucial for making informed decisions."
-          kpiItems={[{ value: '10 Million', description: 'Total Supply', longDescription: 'The maximum number of tokens available.' }]}
+          kpiItems={[{ value: '10 Million', description: 'Total Supply', longDescription: 'The maximum number of tokens available.' }]} 
         />
       </div>
       <div id="footer" data-section="footer" className="scroll-mt-24">
