@@ -34,7 +34,7 @@ export default function Home() {
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <TokenBillboardHero
-          title="YoYote"
+          title="YoYoterr122888223"
           subtitle="Dive into the world of playful memecoins"
           contractAddress="0xExampleAddress"
           copyButtonText="Copy Address"
